@@ -1,0 +1,89 @@
+
+h1{
+    color:beige;
+    background-color: black;
+    font-size: 40px; ;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline white;
+    padding: 17px;
+    border: 3px solid gold;
+    border-radius: 15px;
+}
+
+h2{
+    background-color: gold;
+    font-size: 25px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+      border: 2px solid black;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav p{
+    text-align: center;
+}
+
+.parent{
+max-width: 800px;
+margin:0 auto;
+display : grid;
+grid-template-columns : 0.5fr repeat(2, 1fr) ;
+grid-template-rows : 0.7fr repeat(3, 1fr) 0.5fr ;
+grid-column-gap :0px;
+grid-row-gap : 0px ;
+column-gap: 10px;
+}
+
+body{
+    background-color: silver;
+}
+
+
+.grid{
+    background-color: yellow;
+    width: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    }
+
+    .contenedor_padre{
+  max-width: 900px;
+  background-color: silver;
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+    }
+
+    .card{
+    background-color: grey;
+    width: 300px;
+    border: 10px solid #230902;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img{
+    max-width: 100%;
+}
+
+    footer{
+        background-color: black;
+        position: absolute;
+        bottom: -1;
+        width: 100%;
+    }
+
+    h3{
+        color: beige;
+        text-align: center;
+    }
